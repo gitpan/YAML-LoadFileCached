@@ -1,7 +1,7 @@
 package YAML::LoadFileCached;
 
 #
-# $Id: LoadFileCached.pm,v 1.2 2002/08/01 15:07:08 fhe Exp $
+# $Id: LoadFileCached.pm,v 1.3 2003/02/03 12:10:01 florian Exp $
 #
 
 use 5.006;
@@ -19,7 +19,7 @@ our @EXPORT_OK	= qw(
 our @EXPORT	= qw(
 	LoadFileCached
 	);
-our $VERSION	= '0.20';
+our $VERSION	= '0.21';
 
 my $cache;
 my $statistic;
@@ -129,5 +129,16 @@ Florian Helmberger, E<lt>fh@laudatio.comE<gt>
 =head1 SEE ALSO
 
 L<YAML>.
+
+=head1 VERSION
+
+$Id: LoadFileCached.pm,v 1.3 2003/02/03 12:10:01 florian Exp $
+
+=head1 COPYRIGHT
+
+Copyright (c) 2002 - 2003, Florian Helmberger. All Rights Reserved.
+This module is free software. It may be used, redistributed and/or
+modified under the terms of the Perl Artistic License
+(see http://www.perl.com/perl/misc/Artistic.html).
 
 =cut
