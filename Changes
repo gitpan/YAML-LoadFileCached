@@ -1,6 +1,9 @@
 Revision history for Perl extension YAML::LoadFileCached.
 
 0.01  Sun Mar  3 13:56:14 2002
-	- original version; created by h2xs 1.21 with options
-		-AX -n YAML::LoadFileCached
-
+	Inital release.
+0.02  Thu Aug  1 16:53:00 2002
+	Maintainance update:
+		+ added short description to manpage
+		+ repackaged the proper way
+	NO changes in functionality and features!

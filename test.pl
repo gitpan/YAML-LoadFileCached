@@ -1,5 +1,5 @@
 #
-# $Id: test.pl,v 1.1.1.1 2002/03/03 16:08:41 fh Exp $
+# $Id: test.pl,v 1.1.1.1 2002/08/01 15:03:59 fhe Exp $
 #
 
 # Before `make install' is performed this script should be runnable with

@@ -3,9 +3,9 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'		=> 'YAML::LoadFileCached',
-    'VERSION_FROM'	=> 'LoadFileCached.pm', # finds $VERSION
+    'VERSION_FROM'	=> 'lib/YAML/LoadFileCached.pm', # finds $VERSION
     'PREREQ_PM'		=> {YAML => 0.30}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM => 'LoadFileCached.pm', # retrieve abstract from module
+      (ABSTRACT_FROM => 'lib/YAML/LoadFileCached.pm', # retrieve abstract from module
        AUTHOR     => 'Florian Helmberger <fh@laudatio.com>') : ()),
 );

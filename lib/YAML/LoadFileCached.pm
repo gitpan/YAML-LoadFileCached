@@ -1,7 +1,7 @@
 package YAML::LoadFileCached;
 
 #
-# $Id: LoadFileCached.pm,v 1.1.1.1 2002/03/03 16:08:41 fh Exp $
+# $Id: LoadFileCached.pm,v 1.2 2002/08/01 15:07:08 fhe Exp $
 #
 
 use 5.006;
@@ -19,7 +19,7 @@ our @EXPORT_OK	= qw(
 our @EXPORT	= qw(
 	LoadFileCached
 	);
-our $VERSION	= '0.01';
+our $VERSION	= '0.20';
 
 my $cache;
 my $statistic;
@@ -58,6 +58,7 @@ sub CacheStatistics
 
 1;
 __END__
+
 =head1 NAME
 
 YAML::LoadFileCached - A wrapper around YAML::LoadFile with caching

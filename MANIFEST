@@ -1,5 +1,5 @@
 Changes
-LoadFileCached.pm
+lib/YAML/LoadFileCached.pm
 Makefile.PL
 MANIFEST
 README
